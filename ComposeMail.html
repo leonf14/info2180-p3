@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title> Mail Composer </title>
+		<script src="ComposeMail.js" type="text/javascript">  </script>
+	</head>
+
+	<body background="BO.jpg">
+		<center> <img src="maill.jpg"> </center>
+		<h1> Complete All Fields . </h1>
+		<form name="Compose Mail" action="Homepage.html" onsubmit="return recipientValidator">
+			<table>
+				<tr>
+					<td>Subject:</td>
+					<td><input type= "text" name= "subject" id="subject" /></td>
+				</tr>
+				<tr>
+					<td>Recipient:</td>
+					<td><input type="text" name="recipient" id="recipient" /></td>
+				</tr>
+				<tr>
+					<td>Body:</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><textarea cols="60" rows="20" name = "Body"> </textarea></td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="SEND"/></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+ </html>
